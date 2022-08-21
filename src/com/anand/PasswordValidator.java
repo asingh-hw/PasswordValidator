@@ -20,6 +20,10 @@ public class PasswordValidator {
 
         try (BufferedReader br = new BufferedReader(new FileReader(inputFile)); BufferedWriter bw = new BufferedWriter(new FileWriter(outFile))) {
 
+            if (!outFile.exists() && !outFile.createNewFile()) {
+                System.out.println("Error while creating say.out output file");
+            }
+
             String password;
             PasswordValidatorService service = new PasswordValidatorService();
             while ((password = br.readLine()) != null && !password.trim().equalsIgnoreCase("end")) {
