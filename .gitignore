@@ -1,0 +1,14 @@
+## generic files to ignore
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+
+# Intellij
+*.iml
+.idea/*
+
+# Eclipse
+.classpath
+.project
