@@ -22,6 +22,7 @@ public class PasswordValidator {
 
             if (!outFile.exists() && !outFile.createNewFile()) {
                 System.out.println("Error while creating say.out output file");
+                return;
             }
 
             String password;
