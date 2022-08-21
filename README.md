@@ -38,7 +38,7 @@ Example output:
 <houctuh> is acceptable.
 
 
-<b>Running the code:</b>
+<h2>Running the code:</h2>
 
 Pleae run the PasswordValidator class as a starting point for executing the solution from any IDE.
 
