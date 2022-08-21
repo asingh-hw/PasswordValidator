@@ -36,3 +36,8 @@ Example output:
 <wiinq> is not acceptable.
 <eep> is acceptable.
 <houctuh> is acceptable.
+
+
+Running the code:
+Pleae run the PasswordValidator class as a starting point for executing the solution from any IDE.
+
