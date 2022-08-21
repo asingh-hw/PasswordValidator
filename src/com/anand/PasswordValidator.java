@@ -6,8 +6,8 @@ public class PasswordValidator {
 
     public static void main(String[] args) {
 
-        final String ACCEPTABLE_LABLE = " is Acceptable";
-        final String NOT_ACCEPTABLE_LABLE = " is not Acceptable";
+        final String ACCEPTABLE_LABLE = " is acceptable.";
+        final String NOT_ACCEPTABLE_LABLE = " is not acceptable.";
 
 
         File inputFile = new File("resources/say.in");
