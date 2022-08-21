@@ -9,7 +9,8 @@ To be acceptable, a password must satisfy these three rules:
 <li>It must contain at least one vowel.</li>
 <li>It cannot contain three consecutive vowels or three consecutive consonants.</li>
 <li>It cannot contain two consecutive occurrences of the same letter, except for 'ee' or 'oo'. </li>
-
+<br>
+<br>
 The input consists of one or more potential passwords, one per line, followed by a line containing only the word 'end' that signals the end of the file. Each password is at least one and at most twenty letters long and consists only of lowercase letters. For each password, output whether or not it is acceptable.
 
 <b>Example input: </b>
@@ -25,7 +26,7 @@ houctuh
 end
 
 
-<b>Example output:
+<b>Example output:</b>
 
 <a> is acceptable.
 <tv> is not acceptable.
