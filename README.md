@@ -12,7 +12,7 @@ To be acceptable, a password must satisfy these three rules:
 
 The input consists of one or more potential passwords, one per line, followed by a line containing only the word 'end' that signals the end of the file. Each password is at least one and at most twenty letters long and consists only of lowercase letters. For each password, output whether or not it is acceptable.
 
-Example input:
+<b>Example input: </b>
 
 a
 tv
@@ -25,7 +25,7 @@ houctuh
 end
 
 
-Example output:
+<b>Example output:
 
 <a> is acceptable.
 <tv> is not acceptable.
