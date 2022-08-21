@@ -12,3 +12,6 @@
 # Eclipse
 .classpath
 .project
+
+#project
+out/*
